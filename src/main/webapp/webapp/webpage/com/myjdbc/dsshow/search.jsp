@@ -1,4 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@page contentType="text/html;charset=utf-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+
+<meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
+%>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 	<head>
@@ -7,15 +16,15 @@
 
 		<title>搜索页面</title>
 
-		<link href="AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
-		<link href="AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css" />
+		<link href="/webpage/com/myjdbc/dsshow/AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+		<link href="/webpage/com/myjdbc/dsshow/AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css" />
 
-		<link href="basic/css/demo.css" rel="stylesheet" type="text/css" />
+		<link href="/webpage/com/myjdbc/dsshow/basic/css/demo.css" rel="stylesheet" type="text/css" />
 
-		<link href="css/seastyle.css" rel="stylesheet" type="text/css" />
+		<link href="/webpage/com/myjdbc/dsshow/css/seastyle.css" rel="stylesheet" type="text/css" />
 
-		<script type="text/javascript" src="basic/js/jquery-1.7.min.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="/webpage/com/myjdbc/dsshow/basic/js/jquery-1.7.min.js"></script>
+		<script type="text/javascript" src="/webpage/com/myjdbc/dsshow/js/script.js"></script>
 	</head>
 
 	<body>
@@ -586,9 +595,9 @@
 			</div>
 		</div>
 		<script>
-			window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
+			window.jQuery || document.write('<script src="/webpage/com/myjdbc/dsshow/basic/js/jquery-1.9.min.js"><\/script>');
 		</script>
-		<script type="text/javascript" src="basic/js/quick_links.js"></script>
+		<script type="text/javascript" src="/webpage/com/myjdbc/dsshow/basic/js/quick_links.js"></script>
 
 <div class="theme-popover-mask"></div>
 
